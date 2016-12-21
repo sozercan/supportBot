@@ -1,0 +1,19 @@
+{
+  "name": "supportbot",
+  "version": "1.0.0",
+  "description": "Support Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sertac Ozercan",
+  "license": "MIT",
+  "dependencies": {
+    "zendesk-node-api": "sebastienroul/zendesk-node-api#patch-1",
+    "botbuilder": "^3.4.4",
+    "restify": "^4.3.0",
+    "request": "^2.79.0",
+    "dotenv": "^2.0.0",
+    "node-emoji": "^1.4.3"
+  }
+}
